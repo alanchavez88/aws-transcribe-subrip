@@ -1,0 +1,22 @@
+POST http://localhost/upload/transcription
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-02T010211.404.html
+
+###
+
+POST http://localhost/upload/transcription
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-02T010135.404.html
+
+###
+
+POST http://localhost:8080/upload/transcription
+Accept: */*
+Cache-Control: no-cache
+
+###
+

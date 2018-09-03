@@ -8,3 +8,5 @@ apt-get update
 apt-get install -y git zip unzip
 cd /var/www/
 composer install 
+composer require annotations
+composer require symfony/apache-pack

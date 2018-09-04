@@ -6,4 +6,14 @@ index:
 blog_show:
   path:     /blog/{slug}
   controller: App\Controller\DefaultController::show
-#  condition: "context.getMethod() in ['GET']"
+  condition: "context.getMethod() in ['GET']"
+
+transcribe:
+  path:     /transcribe
+  controller: App\Controller\TranscribeController:index
+  condition: "context.getMethod() in ['GET']"
+
+transcribe_upload:
+  path:     /transcribe/upload
+  controller: App\Controller\TranscribeController:upload
+  condition: "context.getMethod() in ['POST']"

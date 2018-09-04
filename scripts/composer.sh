@@ -10,3 +10,5 @@ cd /var/www/
 composer install 
 composer require annotations
 composer require symfony/apache-pack
+composer require symfony/filesystem
+pecl install xdebug
